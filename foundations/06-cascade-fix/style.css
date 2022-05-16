@@ -1,10 +1,13 @@
-.para,
-.small-para {
+.para {
   color: hsl(0, 100%, 50%);
+  font-size: 50px;
+  font-weight: 700;
+  font-family: "Helvetica";
 }
 
-.small-para {
+.para.small-para {
   font-size: 14px;
+  font-weight: 500;
 }
 
 .para {
@@ -18,17 +21,27 @@
 } 
 
 .button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-.child {
+.text.child {
   color: red;
   font-size: 14px;
 }
 
-div.text {
+.text {
   color: green;
   font-size: 22px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#confirm-button {
+    background-color: green;
+    color: white;
+}
+
+#cancel-button {
+    background-color: white;
+    color: black;
 }
